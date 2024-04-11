@@ -88,7 +88,7 @@ fun SearchedCommunities(
         Community(
             text = it,
             modifier = modifier,
-            onCommunityClicked = {
+            onCommunityClciked = {
                 viewModel?.selectedCommunity?.postValue(it)
                 RedditRouter.goBack()
             }
